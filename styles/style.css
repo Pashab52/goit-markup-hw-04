@@ -273,10 +273,19 @@ color: var(--hover-link-color);
 }
 
 .features-item {
-    flex-basis: calc( ( 100% - var(--gap) * ( var(--items) - 1 ) ) / var(--items) );
-    
+    flex-basis: calc( ( 100% - var(--gap) * ( var(--items) - 1 ) ) / var(--items) ); 
 }
-
+.cont{
+    background-color: #F4F4FD;
+    padding: 24px 100px;
+    margin-bottom: 8px;
+}
+.features-icon {
+    display: block;
+    margin-right: auto;
+    margin-left: auto;
+   
+}
 
 .features-title {
     font-weight: 500;
