@@ -278,7 +278,7 @@ color: var(--hover-link-color);
 
 
 
-.icon-wraper {
+.icon-wrapper {
     display: flex;
     justify-content: center;
     align-items: center;
@@ -374,7 +374,6 @@ background-color: violet */
 
 .socials-list{
     display: flex;
-    justify-content: center;
     gap: 24px;
 }
     
@@ -396,10 +395,6 @@ background-color: violet */
 }
 
 
-.socials-icon {
-
-}
-
 /**
   |============================
   | Footer
@@ -411,6 +406,12 @@ background-color: violet */
     padding-top: 100px;
     padding-bottom: 100px;
 }
+
+.footer-wrapper{
+display: flex;
+gap: 120px;
+}
+
 .page-footer .logo-link {
     
     padding: 0;
@@ -426,6 +427,31 @@ background-color: violet */
     max-width: 264px;
 }
 
+.socials-text{
+    font-weight: 500;
+    color: var(--light-txt-color);
+    margin-bottom: 16px;
+}
+.socials-footer-list{
+    display: flex;
+    gap: 16px;
+}
+
+.socials-footer-link {
+display: flex;
+align-items: center;
+justify-content: center;
+fill: #F4F4FD;
+background-color: #FFFFFF1A;
+width: 40px;
+height: 40px;
+border-radius: 50%;
+}
+
+.socials-footer-link:hover,
+.socials-footer-link:focus{
+    background-color: #31D0AA;
+}
 /**
   |============================
   | Portfolio
