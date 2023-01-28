@@ -82,6 +82,7 @@ img {
     text-align: center;
     text-transform: capitalize;
     color: var(--title-txt-color);
+    margin-bottom: 72px;
 }
 
 .section {
@@ -315,9 +316,8 @@ background-color: violet */
     padding-top: 0;
     /* background-color: navy; */
 }
-.we-do-title {
-    margin-bottom: 72px;
-}
+
+
 .we-do-list {
     display: flex;
     gap: var(--gap);
@@ -338,9 +338,6 @@ background-color: violet */
     background: var(--light-bg-color)
 }
 
-.team-section-title {
-    margin-bottom: 72px;
-}
 
 .team-list {
     display: flex;
@@ -394,6 +391,18 @@ background-color: violet */
     background-color: #404BBF;
 }
 
+/**
+  |============================
+  | Customers
+  |============================
+*/
+
+.customers-section{
+    padding-top: 130px;
+    padding-bottom: 120px;
+}
+
+
 
 /**
   |============================
@@ -438,14 +447,15 @@ gap: 120px;
 }
 
 .socials-footer-link {
-display: flex;
-align-items: center;
-justify-content: center;
-fill: #F4F4FD;
-background-color: #FFFFFF1A;
-width: 40px;
-height: 40px;
-border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50%;
+    width: 40px;
+    height: 40px;
+    background-color: #FFFFFF1A;
+    fill: #F4F4FD;
+
 }
 
 .socials-footer-link:hover,
